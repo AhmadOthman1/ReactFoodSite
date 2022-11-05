@@ -1,0 +1,23 @@
+.avatar {
+    background-color: transparent;
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+.avatar:hover{
+    background-color: #F9F8F6;
+}
+svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    x:0;
+    y:0;
+}
+svg path{
+    fill: #33333a;
+}
+.avatar:hover svg path{
+    fill: #FF6008;
+}

@@ -1,0 +1,42 @@
+.navBarBrand{
+    padding: 0.3rem;
+    width: 80%;
+}
+.navButton {
+    border: none!important;
+    box-shadow:none !important;
+}
+.navButton:focus {
+    border: none !important;
+    box-shadow:none !important;
+}
+.navButton{
+    width: 170px;
+    border-radius: 0px !important;
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+}
+.navBar{
+    background-color: transparent;
+    font-weight: 600;
+    position: fixed !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+}
+.navItem ,.dropdown>a{
+    color: white !important;
+    padding-left: 3rem !important;
+}
+.navItem:hover ,.dropdown>a:hover{
+    color: #FFCC00 !important;
+}
+@media (max-width:750px) {
+    .logo{
+        width: 50%;
+        height: 50%;
+    }
+}
