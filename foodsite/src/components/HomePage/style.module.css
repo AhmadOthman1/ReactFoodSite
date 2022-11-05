@@ -25,5 +25,30 @@
 }
 .homeSearch{
     background-color: white;
-    padding: 1rem;
+    padding: 0.5rem;
+}
+.homeSearch input{
+    width: 100%;
+    border: none;
+}
+.homeSearch h5{
+font-weight: bold;
+}
+.homeSearch input:focus{
+    outline: none;
+}
+.searchButton{
+    width: 4rem;
+    height: 4rem;
+    padding: 0.5rem;
+    border-radius: 0;
+    margin-right: -0.5rem;
+}
+.searchRow{
+    justify-content: space-between;
+}
+.HomeMain h3{
+    color: white;
+    font-weight: 600;
+    margin-top: 1rem;
 }
