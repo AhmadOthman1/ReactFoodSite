@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import searchIcon from '../../images/search.png'
+import SubMenu from '../SubMenue/index'
+
 function HomePage() {
   return (
     <>
@@ -28,6 +30,12 @@ function HomePage() {
           <Col xs={5} ></Col>
         </Row>
       </div>
+
+      <hr />
+
+      <br />
+
+      <SubMenu />
     </>
   )
 }

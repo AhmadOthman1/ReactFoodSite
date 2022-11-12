@@ -1,0 +1,20 @@
+.MainContainer{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.justify{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5%;
+}
+
+.Card{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

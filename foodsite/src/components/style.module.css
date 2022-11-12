@@ -1,0 +1,19 @@
+.MainContainer{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainer > p{
+    color: #FFCC00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.line{
+    width: 100px;
+    height: 10px;
+    background-color: #FFCC00;
+}
